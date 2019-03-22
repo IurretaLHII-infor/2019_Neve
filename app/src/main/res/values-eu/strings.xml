@@ -5,19 +5,13 @@
     <string name="themes">Temak</string>
     <string name="settings">Ezarpenak</string>
     <string name="scores">Puntuaketak</string>
-    <string name="email">Posta</string>
-    <string name="phone">Mugikorra</string>
-    <string name="firstname">Izena</string>
-    <string name="lastname">Abizena</string>
-    <string name="paddle">Ontzia</string>
-    <string name="speed">Abiadrura</string>
-    <string name="width">Zabalera</string>
-    <string name="ball">Bola</string>
-    <string name="bricks">Maltzurrak</string>
-    <string name="rows">Errenkadak</string>
-    <string name="cols">Zutabeak</string>
-    <string name="hits">Kolpeak</string>
-    <string name="score">Puntuak</string>
+    <string name="join">Hasi sasoia</string>
+    <string name="create_acc">Sortu kontua</string>
+    <string name="username">Erabiltzailea</string>
+    <string name="password">Pasahitza</string>
+    <string name="skip">Saltatu</string>
+    <string name="save">Gorde</string>
+    <string name="cancel">Deuseztatu</string>
 
     <!-- Game strings -->
     <string name="level">Nibela</string>

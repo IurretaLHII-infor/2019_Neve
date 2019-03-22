@@ -6,19 +6,13 @@
     <string name="themes">Temas</string>
     <string name="settings">Preferencias</string>
     <string name="scores">Puntuaciones</string>
-    <string name="email">Email</string>
-    <string name="phone">Telefono</string>
-    <string name="firstname">Nombre</string>
-    <string name="lastname">Apellido</string>
-    <string name="paddle">Nave</string>
-    <string name="speed">Velocidad</string>
-    <string name="width">Anchura</string>
-    <string name="ball">Bola</string>
-    <string name="bricks">Ladrillos</string>
-    <string name="rows">Filas</string>
-    <string name="cols">Columnas</string>
-    <string name="hits">Golpes</string>
-    <string name="score">Puntuacion</string>
+    <string name="join">Iniciar sesion</string>
+    <string name="create_acc">Crear cuenta</string>
+    <string name="username">Usuario</string>
+    <string name="password">Contraseña</string>
+    <string name="skip">Saltar</string>
+    <string name="save">Guardar</string>
+    <string name="cancel">Cancelar</string>
 
     <!-- Game strings -->
     <string name="level">Nibela</string>
