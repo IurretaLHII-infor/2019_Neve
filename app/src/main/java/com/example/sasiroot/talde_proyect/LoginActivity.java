@@ -37,8 +37,7 @@ public class LoginActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
         this.setTitle(R.string.app_name);
-        Resources res = this.getResources();
-        Configuration config = res.getConfiguration();
+
 
         this.password = this.findViewById(R.id.password);
         this.username = this.findViewById(R.id.username);
@@ -82,19 +81,19 @@ public class LoginActivity extends AppCompatActivity {
 
             case LoginActivity.REQUEST_LANGUAGES:
                 Bundle extras = data.getExtras();
-                String theme = extras.get("theme").toString();
-
-                SharedPreferences prefered = this.getSharedPreferences("PREFERED", Context.MODE_PRIVATE);
-                SharedPreferences.Editor editor = prefered.edit();
-                editor.putString("THEME",theme);
-                editor.commit();
-
 
                 Resources res = this.getResources();
                 Configuration config = res.getConfiguration();
                 //String lang = extras.get("LANG").toString();
                 config.setLocale(new Locale(extras.get("LANG").toString()));
                 res.updateConfiguration(config, res.getDisplayMetrics());
+
+                String theme = extras.get("theme").toString();
+                SharedPreferences prefered = this.getSharedPreferences("PREFERED", Context.MODE_PRIVATE);
+                SharedPreferences.Editor editor = prefered.edit();
+                editor.putString("THEME",theme);
+                editor.commit();
+
                 this.recreate();
                 break;
 
