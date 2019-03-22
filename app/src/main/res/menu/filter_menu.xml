@@ -6,6 +6,7 @@
         android:id="@+id/settingsMenuOption"
         android:title="settings"
         app:showAsAction="always"
+        
         android:orderInCategory="4"
         android:icon="@drawable/ic_reorder_black_24dp"
 

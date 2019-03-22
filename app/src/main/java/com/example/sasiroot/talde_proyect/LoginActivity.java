@@ -105,7 +105,7 @@ public class LoginActivity extends AppCompatActivity {
 
 
     public void join(View view) {
-        Intent i = new Intent(this, EventsActivity.class);
+        Intent i = new Intent(this, EventActivity.class);
         this.startActivity(i);
     }
 

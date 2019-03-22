@@ -18,6 +18,7 @@
         <item name="radioButtonStyle">@style/RadioButton</item>
 
     </style>
+
     <style name="ImageButton" parent="Base.Widget.AppCompat.ImageButton">
         <item name="android:background">@color/colorDarkBlack</item>
     </style>
@@ -29,14 +30,13 @@
     </style>
 
 
-
     <style name="RadioButton" parent="Base.Widget.AppCompat.CompoundButton.RadioButton">
         <item name="android:gravity">center</item>
     </style>
 
     <!-- Theme two. -->
 
-   <style name="AppTheme.CustomT">
+    <style name="AppTheme.CustomT">
         <item name="colorPrimary">@color/colorBlack</item>
         <item name="colorPrimaryDark">@color/colorGrey</item>
         <item name="colorAccent">@color/colorWhite</item>
@@ -58,7 +58,14 @@
         <item name="android:gravity">center</item>
     </style>
 
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
 
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
 
 </resources>
