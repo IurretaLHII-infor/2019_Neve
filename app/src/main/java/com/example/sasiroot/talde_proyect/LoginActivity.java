@@ -36,6 +36,7 @@ public class LoginActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
+        this.setTitle(R.string.app_name);
         Resources res = this.getResources();
         Configuration config = res.getConfiguration();
 

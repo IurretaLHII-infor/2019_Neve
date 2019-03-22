@@ -2,10 +2,10 @@
 
 
     <!-- Titles -->
-    <string name="app_name">Proiect</string>
+    <string name="app_name">Eventualy</string>
     <string name="langs">Languages</string>
     <string name="themes">Themes</string>
-    <string name="settings">Preferences</string>
+    <string name="settings">Settings</string>
 
 
     <string name="join">JOIN</string>
