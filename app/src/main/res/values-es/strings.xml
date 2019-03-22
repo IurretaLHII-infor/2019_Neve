@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Proiecto
+    <string name="app_name">Eventualy
     </string>
     <string name="langs">Idiomas</string>
     <string name="themes">Temas</string>
-    <string name="settings">Preferencias</string>
+    <string name="settings">Ajustes</string>
     <string name="scores">Puntuaciones</string>
     <string name="join">Iniciar sesion</string>
     <string name="create_acc">Crear cuenta</string>

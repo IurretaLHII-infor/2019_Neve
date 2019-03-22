@@ -22,7 +22,7 @@ public class SettingsActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_settings);
 
-        this.setTitle("Ajustes");
+        this.setTitle(R.string.settings);
         this.selector = this.findViewById(R.id.spinner);
         this.select = this.findViewById(R.id.spinner2);
 
