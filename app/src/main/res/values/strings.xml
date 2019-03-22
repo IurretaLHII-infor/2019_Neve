@@ -1,0 +1,41 @@
+<resources>
+
+
+    <!-- Titles -->
+    <string name="app_name">Proiect</string>
+    <string name="langs">Languages</string>
+    <string name="themes">Themes</string>
+    <string name="settings">Preferences</string>
+    <string name="scores">Scores</string>
+
+    <!-- Game strings -->
+    <string name="game_over">GAME OVER</string>
+    <string name="winner">YOU WIN</string>
+    <string name="level">Level</string>
+    <string name="points">Pts</string>
+    <string name="touch_screen">Touch screen to play</string>
+    <string name="last_puntuation">Last puntuation:</string>
+
+    <!-- Preferences strings -->
+    <string name="email">Email</string>
+    <string name="phone">Phone</string>
+    <string name="firstname">Firstname</string>
+    <string name="lastname">Lastname</string>
+    <string name="paddle">Paddle</string>
+    <string name="speed">Speed</string>
+    <string name="width">Width</string>
+    <string name="ball">Ball</string>
+    <string name="bricks">Bricks</string>
+    <string name="rows">Rows</string>
+    <string name="cols">Columns</string>
+    <string name="hits">Hits</string>
+    <string name="score">Score</string>
+
+    <!-- Configurable Theme strings -->
+    <string-array name="themes">
+        <item>AppTheme</item>
+        <item>AppTheme.CustomT</item>
+    </string-array>
+
+
+</resources>
