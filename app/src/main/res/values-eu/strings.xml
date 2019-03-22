@@ -12,6 +12,7 @@
     <string name="skip">Saltatu</string>
     <string name="save">Gorde</string>
     <string name="cancel">Deuseztatu</string>
+    <string name="repeatPass">Errepikatu pasahitza</string>
 
     <!-- Game strings -->
     <string name="level">Nibela</string>

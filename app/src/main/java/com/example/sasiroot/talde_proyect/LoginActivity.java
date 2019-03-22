@@ -12,7 +12,10 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Button;
 import android.widget.EditText;
+import android.widget.RadioButton;
+import android.widget.Toast;
 
 import java.util.Date;
 import java.util.Locale;
@@ -23,6 +26,9 @@ public class LoginActivity extends AppCompatActivity {
     private final static int REQUEST_LANGUAGES = 2;
     private EditText password;
     private EditText username;
+    private Button join;
+    private Button create_acc;
+    private Button skip;
 
 
 
@@ -30,9 +36,14 @@ public class LoginActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
+        Resources res = this.getResources();
+        Configuration config = res.getConfiguration();
 
         this.password = this.findViewById(R.id.password);
         this.username = this.findViewById(R.id.username);
+        this.join = this.findViewById(R.id.join);
+        this.create_acc = this.findViewById(R.id.create_acc);
+        this.skip = this.findViewById(R.id.skip);
     }
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -51,7 +62,7 @@ public class LoginActivity extends AppCompatActivity {
             case R.id.settingsMenuOption:
                 Intent i = new Intent(this, SettingsActivity.class);
 
-                this.startActivityForResult(i, LoginActivity.REQUEST_SETTINGS);
+                this.startActivityForResult(i, LoginActivity.REQUEST_LANGUAGES);
                 break;
 
 
@@ -68,7 +79,7 @@ public class LoginActivity extends AppCompatActivity {
 
         switch (requestCode) {
 
-            case LoginActivity.REQUEST_THEMES:
+            case LoginActivity.REQUEST_LANGUAGES:
                 Bundle extras = data.getExtras();
                 String theme = extras.get("theme").toString();
 
@@ -76,19 +87,15 @@ public class LoginActivity extends AppCompatActivity {
                 SharedPreferences.Editor editor = prefered.edit();
                 editor.putString("THEME",theme);
                 editor.commit();
-                this.recreate();
-                break;
-            case LoginActivity.REQUEST_LANGUAGES:
-                extras = data.getExtras();
+
+
                 Resources res = this.getResources();
                 Configuration config = res.getConfiguration();
-                config.locale = new Locale(extras.get("LANG").toString());
+                //String lang = extras.get("LANG").toString();
+                config.setLocale(new Locale(extras.get("LANG").toString()));
                 res.updateConfiguration(config, res.getDisplayMetrics());
                 this.recreate();
                 break;
-
-
-
 
 
             default:
@@ -97,5 +104,14 @@ public class LoginActivity extends AppCompatActivity {
     }
 
 
+    public void join(View view) {
+        Intent i = new Intent(this, EventsActivity.class);
+        this.startActivity(i);
     }
+
+    public void create_acc(View view) {
+        Intent i = new Intent(this, CreateaccActivity.class);
+        this.startActivity(i);
+    }
+}
 

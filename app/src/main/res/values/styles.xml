@@ -3,18 +3,18 @@
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
-        <!--<item name="colorPrimary">@color/colorBlue</item>
+        <item name="colorPrimary">@color/colorBlue</item>
         <item name="colorPrimaryDark">@color/colorBlack</item>
         <item name="colorAccent">@color/colorAccent</item>
         <item name="android:windowBackground">@color/colorGrey</item>
-        <item name="android:navigationBarColor">@color/colorGrey</item>
+
         <item name="android:textColor">@color/colorGreen</item>
         <item name="android:gravity">center</item>
         <item name="android:tint">@color/colorGreen</item>
         <item name="android:typeface">monospace</item>
         <item name="imageButtonStyle">@style/ImageButton</item>
         <item name="editTextStyle">@style/EditText</item>
-        <item name="seekBarStyle">@style/SeekBar</item>
+
         <item name="radioButtonStyle">@style/RadioButton</item>
 
     </style>
@@ -28,28 +28,24 @@
         <item name="android:gravity">center</item>
     </style>
 
-    <style name="SeekBar" parent="Widget.AppCompat.SeekBar.Discrete">
-        <item name="android:progressBackgroundTint">@color/colorAccent</item>
-        <item name="android:progressTint">@color/colorGreen</item>
-        <item name="android:colorControlActivated">@color/colorAccent</item>
-    </style>
+
 
     <style name="RadioButton" parent="Base.Widget.AppCompat.CompoundButton.RadioButton">
-        <item name="android:gravity">center</item>-->
+        <item name="android:gravity">center</item>
     </style>
 
     <!-- Theme two. -->
 
-    <!--<style name="AppTheme.CustomT">
+   <style name="AppTheme.CustomT">
         <item name="colorPrimary">@color/colorBlack</item>
         <item name="colorPrimaryDark">@color/colorGrey</item>
         <item name="colorAccent">@color/colorWhite</item>
         <item name="android:windowBackground">@color/colorGreyLigth</item>
-        <item name="android:navigationBarColor">@color/colorWhite</item>
+
         <item name="imageButtonStyle">@style/ImageButton.Custom</item>
         <item name="android:textColor">@color/colorWhite</item>
         <item name="editTextStyle">@style/EditText.Custom</item>
-        <item name="seekBarStyle">@style/SeekBar.Custom</item>
+
     </style>
 
     <style name="ImageButton.Custom">
@@ -62,11 +58,7 @@
         <item name="android:gravity">center</item>
     </style>
 
-    <style name="SeekBar.Custom">
-        <item name="android:progressBackgroundTint">@color/colorGreyLigth</item>
-        <item name="android:progressTint">@color/colorWhite</item>
-        <item name="android:colorControlActivated">@color/colorGreyLigth</item>
-    </style>-->
+
 
 
 </resources>

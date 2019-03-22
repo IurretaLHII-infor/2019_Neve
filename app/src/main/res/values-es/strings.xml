@@ -13,6 +13,7 @@
     <string name="skip">Saltar</string>
     <string name="save">Guardar</string>
     <string name="cancel">Cancelar</string>
+    <string name="repeatPass">Repita la contraseña</string>
 
     <!-- Game strings -->
     <string name="level">Nibela</string>
